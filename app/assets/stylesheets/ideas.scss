@@ -1,0 +1,57 @@
+// Place all the styles related to the ideas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.description {
+  width: 500px;
+}
+
+.name {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+
+  h1 {
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
+
+.table {
+  border: 2px;
+}
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  &:hover {
+    color: #333333;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: #333333;
+  }
+}
+
+.navbar .navbar-default {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  img {
+    width: 70px;
+  }
+}
+
+.navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
